@@ -52,8 +52,6 @@ function highlight(){
 function replacer(match){
   // console.log(match);
   var randomValue = random();
-  if (randomValue>0.5) {return "🍰"} else{return"🥞"};
+  if (randomValue>0.5) {return "🍰"} else {return"🥞"};
   
-
-  return "🍰||🥞";
 }
