@@ -25,7 +25,6 @@ function newText(){
 
    if(!/\W+/.test(words[i]) ){
     span.style('background-color',colors[floor(random(0,8))]);
-
     span.mouseOver(highlight);
 
    }
