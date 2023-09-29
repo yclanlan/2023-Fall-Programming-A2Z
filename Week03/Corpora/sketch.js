@@ -1,6 +1,5 @@
 let data;
 
-
 function preload() { 
   data = loadJSON('isms.json');
   console.log(data);
