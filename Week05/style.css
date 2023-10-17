@@ -103,6 +103,22 @@ html{
     margin: auto;
     width: 90%;
   }
+
+
+  .showOnMobileBottom{
+    width: 100%;
+    bottom:0%;
+    position: absolute;
+  }
+  .showOnMobile{
+    display: block ;
+    font-size: 2rem;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    
+
+  }
   
   
 }
