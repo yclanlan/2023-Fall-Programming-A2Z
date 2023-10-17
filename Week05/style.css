@@ -1,7 +1,7 @@
 html{
   height:110%;
 }
-
+/* phone */
 @media screen and (max-width: 981px) {
 
   body {
@@ -56,6 +56,24 @@ html{
   }
   
   .title{
+    display: none;
+    font-family: 'Amatic SC', sans-serif;
+    z-index: 2;
+    font-size: 12rem;
+    color:#F3CA17;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top:5%;
+    padding-bottom:5%;
+  
+    top:0;
+    position: absolute;
+  
+  }
+
+  .cell-title{
+    display: block;
     font-family: 'Amatic SC', sans-serif;
     z-index: 2;
     font-size: 12rem;
@@ -189,11 +207,29 @@ h1{
 }
 
 .title{
+  display: block;
   font-family: 'Amatic SC', sans-serif;
   z-index: 2;
   font-size: 5rem;
   color:#F3CA17;
-  width: 50%;
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top:5%;
+  padding-bottom:5%;
+
+  top:0;
+  position: absolute;
+
+}
+
+.cell-title{
+  display: none;
+  font-family: 'Amatic SC', sans-serif;
+  z-index: 2;
+  font-size: 12rem;
+  color:#F3CA17;
+  width: 100%;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top:5%;
