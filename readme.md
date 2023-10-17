@@ -17,3 +17,8 @@ https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week03/New%20York%20Times/
 (Will take a while to process the text!)
 
 https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week04/ 
+
+
+# Week5
+
+https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week05/
