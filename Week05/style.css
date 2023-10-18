@@ -1,15 +1,18 @@
 html{
   height:110%;
+  margin-right: -30px;
+
 }
+
 /* phone */
 @media screen and (max-width: 981px) {
 
   body {
   
-    width:90%;
+    width:100%;
     background-color: rgb(110, 110, 238);
   
-    background-image: url(mountain-wide.gif);
+    background-image: url(mountains.gif);
     background-size:180%;
     background-repeat: no-repeat;
     /* background-size: cover;  */
@@ -162,7 +165,7 @@ body {
   width:60%;
   background-color: rgb(110, 110, 238);
 
-  background-image: url(mountain-wide.gif);
+  background-image: url(mountains.gif);
   background-repeat: no-repeat;
   background-size: cover; 
   background-position-y: bottom;
@@ -181,7 +184,7 @@ body {
   width: 80%;
   margin: auto;
   padding: 1rem;
-  bottom: 25%;
+  bottom: 30%;
 
 }
 
@@ -256,7 +259,7 @@ p{
   z-index: 1;
   width:40%;
 
-  bottom:8%;
+  bottom:10%;
   position: absolute;
   /* transform: translateY(-50%); */
 
