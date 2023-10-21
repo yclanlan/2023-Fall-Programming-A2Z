@@ -1,4 +1,4 @@
-
+// play with time ! slow??
 let bot;
 let text_input, text_output;
 let conversationTurn = 0;
@@ -84,13 +84,6 @@ async function chat() {
     if (conversationTurn === 10) {
       setTimeout(askQuestion6, 1500); // Wait for 1.5 second before asking the question
     }
-
-    // // Check if it's time for the bot to mimic user's reply
-    // if (conversationTurn === 1||4||5||6||7||8||9||10||11||12||13) {
-    //   reply = txt; // The bot mimics the user's reply
-    // } else {
-    //   reply = await bot.reply('local-user', txt);
-    // }
     
 
   }, 1000); // 1000 milliseconds (1 second) delay

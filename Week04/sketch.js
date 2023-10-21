@@ -1,96 +1,87 @@
-let words;
 let counts = {};
-let keys = [];
-
-function preload() {
-    loadTextFile('kafka.txt');
-}
+let keys = {};
+let inputText = ''; // To store user input
 
 function setup() {
     noCanvas();
 
+
 }
 
-function loadTextFile(filePath) {
-    fetch(filePath)
-        .then(response => response.text())
-        .then(data => {
-            const chineseText = data;
-            tokenizeChineseText(chineseText);
-        })
-        .catch(error => {
-            console.error('ERROR：', error);
-        });
+function clearCounts() {
+    counts = {};
+    keys = {};
+    selectAll('h2', 'div', 'hr').forEach(element => element.remove());
 }
+
+function draw() {
+    // You can leave this function empty
+}
+
+function analyzeText() {
+    clearCounts();
+    inputText = select('#inputText').value();
+    tokenizeChineseText(inputText);
+}
+
 
 function tokenizeChineseText(text) {
-
-    console.log(text);
     let words = call_jieba_cut(text, function (result) {
-        console.log(result);
         newText(result);
-        wordCount(result.join('|'), 1); 
-    })
-
-    
-
-
+        wordCount(result.join('|'), 1);
+    });
 }
 
-
-function newText(words){
-
-    for(var i=0; i< words.length; i++){
-     
-     var span = createSpan(words[i]);
-      //put some await here so it will take a break between create every div.
-     var space = createSpan(" ");
-
+function newText(words) {
+    for (let i = 0; i < words.length; i++) {
+        let span = createSpan(words[i]);
+        span.parent('analysisResults');
+        let space = createSpan(" ");
+        space.parent('analysisResults');
     }
-
-  }
-
-
-
+}
 
 function wordCount(txt, num) {
-
-    createElement("hr");
     let word = txt.split("|");
 
     for (let i = 0; i < word.length; i++) {
         if (!/\d+/.test(word[i])) {
-            // 去除單詞中的標點符號，只保留文字字符
-            const cleanWord = word[i].replace(/[，。！、 —— ]/g, '');
+            const cleanWord = word[i].replace(
+                /[，。！？：；『』「」“”、 —— ]/g, 'Punctuation Marks');
 
             if (counts[cleanWord] === undefined) {
                 counts[cleanWord] = 1;
-                keys.push(cleanWord);
             } else {
-                counts[cleanWord] = counts[cleanWord] + 1;
+                counts[cleanWord] += 1;
             }
         }
     }
 
+    // Convert counts object to an array for sorting
+    keys = Object.keys(counts);
     keys.sort(compare);
 
     function compare(a, b) {
-        var countA = counts[a];
-        var countB = counts[b];
-        return countB - countA; // 修改排序方式
+        return counts[b] - counts[a];
     }
 
-    let h2 = createElement('h2','Here is the top twenty most frequent words');
+    let hr = createElement('hr');
+    hr.parent('analysisResults');
+    
+    let h2 = createElement('h2', 'Here are the top twenty most frequent words');
+    h2.parent('analysisResults');
 
-    for (let i = 1; i < 20; i++) {
+    
+
+    for (let i = 0; i < Math.min(keys.length, 20); i++) {
         let key = keys[i];
-        createDiv(key + " " + counts[key]);
-        
+        let words = createDiv(key + " : " + counts[key]);
+        words.parent('analysisResults');
+
+        console.log(key + " : " + counts[key]);
     }
+
+
+
+    
 }
-
-
-
-
-
-
