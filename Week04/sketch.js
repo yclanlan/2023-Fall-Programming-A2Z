@@ -75,7 +75,7 @@ function wordCount(txt, num) {
 
     for (let i = 0; i < Math.min(keys.length, 20); i++) {
         let key = keys[i];
-        let words = createDiv(key + " : " + counts[key]);
+        let words = createDiv( i+1 + " / "+ key + " <br> appeared: " + counts[key] + " times <br> <br> ");
         words.parent('analysisResults');
 
         console.log(key + " : " + counts[key]);
