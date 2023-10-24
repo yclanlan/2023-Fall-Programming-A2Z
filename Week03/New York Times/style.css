@@ -6,3 +6,10 @@ html, body {
 canvas {
   display: block;
 }
+
+header{
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  margin: auto;
+}

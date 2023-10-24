@@ -1,4 +1,5 @@
 let data;
+let markovText;
 
 function preload() { 
   data = loadJSON('isms.json');
@@ -34,7 +35,7 @@ function setup() {
     // try to generate something but didn't work
     // I test the markov and want to generate by the result
 
-    let markovText = new RiTa.markov(2);
+    markovText = new RiTa.markov(2);
     markovText.addText(data.isms[i]);
     console.log(markovText);
     createElement('h4',"markovText: ");  
