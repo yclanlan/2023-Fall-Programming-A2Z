@@ -1,9 +1,13 @@
-let grammar, json;
+let canvas, grammar, json;
 let lines = ["今晚，我想來點",];
 
 function setup() {
+  canvas = createCanvas(windowWidth, 5/10*windowHeight);
+  canvas.mouseClicked(mouse_function);
+ 
 
-  createCanvas(windowWidth, 5/10*windowHeight);
+
+
   textAlign(CENTER);
   grammar = RiTa.grammar(haiku);
 }
@@ -16,7 +20,7 @@ function draw() {
 
 }
 
-function mouseReleased() {
+function mouse_function() {
 
   let result = grammar.expand();
   
@@ -30,9 +34,8 @@ function mouseReleased() {
   }
 
   var span = createElement('p',lines);
-  span.parent(content);
-  var space = createElement('br');
-  space.parent(content);
+
+
 
 
 }
