@@ -40,12 +40,12 @@ https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week05/
 
 Testing Markov - mix two news
 
-https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week06/Markov/
+https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week08/Markov/
 
 
 RiTa Grammer - Taiwan bubble tea shop menu
 
-https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week06/RitaGrammer/
+https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week08/RitaGrammer/
 
 
 Schedule
