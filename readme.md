@@ -1,4 +1,4 @@
-# Week2
+## Week2
 
 · change all the vowel to cake! --
 [link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week02/practice1/)
@@ -6,7 +6,7 @@
 · split the color code from color website and use it! --
 [link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week02/practice2/)
 
-# Week3
+## Week3
 
 · simple fetch practice --
 [link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week03/async%20practice/)
