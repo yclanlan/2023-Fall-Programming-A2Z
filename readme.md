@@ -1,41 +1,41 @@
 # Week2
 
-change all the vowel to cake! --
+·change all the vowel to cake! --
 [link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week02/practice1/)
 
-split the color code from color website and use it! --
+·split the color code from color website and use it! --
 [link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week02/practice2/)
 
 # Week3
 
-simple fetch practice --
+·simple fetch practice --
 [link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week03/async%20practice/)
 
-Get JSON from Corpora + use RiTa to analyze it --
+·Get JSON from Corpora + use RiTa to analyze it --
 [link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week03/Corpora/)
 
-Search "cat" on New York Times API --
+·Search "cat" on New York Times API --
 [link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week03/New%20York%20Times/)
 
 # Week4
 
-Chinese word frequency counter
+·Chinese word frequency counter
 (Will take a while to process the text!) --
 [link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week04/)
 
 
 # Week5 - 7
 
-Talk to me!! -- Mountain Chatbot --
+·Talk to me!! -- Mountain Chatbot --
 [link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week05/)
 
 # Week8
 
-Testing Markov - mix two news --
+·Testing Markov - mix two news --
 [link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week08/Markov/)
 
 
-RiTa Grammer - Taiwan bubble tea shop menu --
+·RiTa Grammer - Taiwan bubble tea shop menu --
 [link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week08/RitaGrammer/)
 
 _______________________________
