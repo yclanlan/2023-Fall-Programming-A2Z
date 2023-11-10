@@ -41,3 +41,8 @@ function mouse_function() {
 
 
 }
+
+
+function windowResized() {
+  resizeCanvas(windowWidth, 5/10*windowHeight);
+}
