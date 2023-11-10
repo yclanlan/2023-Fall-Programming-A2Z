@@ -47,8 +47,9 @@ RiTa Grammer - Taiwan bubble tea shop menu
 
 https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week08/RitaGrammer/
 
+_______________________________
 
-Schedule
+# Schedule
 Week 1 - Introduction, Sep 8
 
 Week 2 - Regular Expressions, Sep 15
