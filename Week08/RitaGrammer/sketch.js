@@ -3,7 +3,7 @@ let lines = ["今晚，我想來點",];
 
 function setup() {
 
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, 9/10*windowHeight);
   textAlign(CENTER);
   grammar = RiTa.grammar(haiku);
 }
