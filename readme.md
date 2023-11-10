@@ -17,19 +17,19 @@
 · Search "cat" on New York Times API --
 [link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week03/New%20York%20Times/)
 
-# Week4
+## Week4
 
 · Chinese word frequency counter
 (Will take a while to process the text!) --
 [link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week04/)
 
 
-# Week5 - 7
+## Week5 - 7
 
 · Talk to me!! -- Mountain Chatbot --
 [link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week05/)
 
-# Week8
+## Week8
 
 · Testing Markov - mix two news --
 [link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week08/Markov/)
@@ -40,7 +40,8 @@
 
 _______________________________
 
-# Schedule
+# Class Schedule
+
 Week 1 - Introduction, Sep 8
 
 Week 2 - Regular Expressions, Sep 15
