@@ -34,8 +34,8 @@ function mouse_function() {
 
   var span = createElement('p',lines[0]);
   
-  console.log(lines);
-  console.log(lines[0]);
+  // console.log(lines);
+  // console.log(lines[0]);
 
 
 
