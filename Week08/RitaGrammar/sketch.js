@@ -14,7 +14,7 @@ function draw() {
   background(230, 240, 255);
   textSize(5/100*windowWidth);
   text(lines[0], width / 2, 5/10*windowHeight/2);
-  textSize(1.5/100*windowWidth);
+  textSize(1.8/100*windowWidth);
   text(lines[1], width / 2, 6.5/10*windowHeight/2);
   textSize(2/100*windowWidth);
   text(lines[2], width / 2, 8/10*windowHeight/2);
