@@ -5,9 +5,6 @@ function setup() {
   canvas = createCanvas(windowWidth, 5/10*windowHeight);
   canvas.mouseClicked(mouse_function);
  
-
-
-
   textAlign(CENTER);
   grammar = RiTa.grammar(haiku);
 }
@@ -33,11 +30,12 @@ function mouse_function() {
   
   for (let i = 0; i < lines.length; i++) {
     lines[i] = haiku[i];
-
- 
   }
 
-  var span = createElement('p',lines);
+  var span = createElement('p',lines[0]);
+  
+  console.log(lines);
+  console.log(lines[0]);
 
 
 
