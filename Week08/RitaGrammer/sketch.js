@@ -1,5 +1,5 @@
 let canvas, grammar, json;
-let lines = ["今晚，我想來點",];
+let lines = ["今晚，我想來點","(click)"];
 
 function setup() {
   canvas = createCanvas(windowWidth, 5/10*windowHeight);
@@ -17,6 +17,8 @@ function draw() {
   background(230, 240, 255);
   textSize(50);
   text(lines[0], width / 2, 5/10*windowHeight/2);
+  textSize(20);
+  text(lines[1], width / 2, 8/10*windowHeight/2);
 
 }
 
