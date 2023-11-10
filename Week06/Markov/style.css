@@ -1,0 +1,11 @@
+html, body {
+  margin: auto;
+  width: 50%;
+}
+canvas {
+  display: block;
+}
+
+a:link , a:visited {
+  color:pink;
+}

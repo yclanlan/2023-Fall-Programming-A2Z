@@ -4,18 +4,12 @@ let inputText = ''; // To store user input
 
 function setup() {
     noCanvas();
-
-
 }
 
 function clearCounts() {
     counts = {};
     keys = {};
     selectAll('h2', 'div', 'hr').forEach(element => element.remove());
-}
-
-function draw() {
-    // You can leave this function empty
 }
 
 function analyzeText() {
@@ -26,10 +20,15 @@ function analyzeText() {
 
 
 function tokenizeChineseText(text) {
-    let words = call_jieba_cut(text, function (result) {
-        newText(result);
-        wordCount(result.join('|'), 1);
-    });
+    
+    let words = call_jieba_cut(text, 
+        function (result) {
+            console.log(result);
+            newText(result);
+            wordCount(result.join('|'), 1);
+        });
+
+        console.log(words);
 }
 
 function newText(words) {
@@ -47,7 +46,7 @@ function wordCount(txt, num) {
     for (let i = 0; i < word.length; i++) {
         if (!/\d+/.test(word[i])) {
             const cleanWord = word[i].replace(
-                /[，。！？：；『』「」“”、 —— ]/g, 'Punctuation Marks');
+                /   [，。！？：；『』「」“”、 —— ]    /g, 'Punctuation Marks');
 
             if (counts[cleanWord] === undefined) {
                 counts[cleanWord] = 1;
