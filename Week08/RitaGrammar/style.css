@@ -9,3 +9,7 @@ canvas {
 a:link , a:visited {
   color:pink;
 }
+
+p{
+  font-size: 1.5 rem;
+}
