@@ -35,3 +35,14 @@ https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week04/
 Talk to me!! -- Mountain Chatbot
 
 https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week05/
+
+# Week6
+
+Testing Markov - mix two news
+
+https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week06/Markov/
+
+
+RiTa Grammer - Taiwan bubble tea shop menu
+
+https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week06/RitaGrammer/
