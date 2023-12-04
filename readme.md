@@ -2,50 +2,46 @@
 
 ## Week2
 
-· change all the vowel to cake! --
-[link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week02/practice1/)
+· [change all the vowel to cake! ](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week02/practice1/)
 
-· split the color code from color website and use it! --
-[link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week02/practice2/)
+· [split the color code from color website and use it!](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week02/practice2/)
 
 ## Week3
 
-· simple fetch practice --
-[link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week03/async%20practice/)
+· [simple fetch practice](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week03/async%20practice/)
 
-· Get JSON from Corpora + use RiTa to analyze it --
-[link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week03/Corpora/)
+· [Get JSON from Corpora + use RiTa to analyze it](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week03/Corpora/)
 
-· Search "cat" on New York Times API --
-[link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week03/New%20York%20Times/)
+· [Search "cat" on New York Times API](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week03/New%20York%20Times/)
 
 ## Week4
 
-· Chinese word frequency counter
-(Will take a while to process the text!) --
-[link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week04/)
+· [Chinese word frequency counter](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week04/)
+ (Will take a while to process the text!)
 
 
 ## Week5 - 7
 
-· Talk to me!! -- Mountain Chatbot --
-[link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week05/)
+· [Talk to me!! -- Mountain Chatbot](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week05/)
 
 ## Week8
 
-· Testing Markov - mix two news --
-[link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week08/Markov/)
+· [Testing Markov - mix two news](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week08/Markov/)
 
 
-· RiTa Grammer - Taiwan bubble tea shop menu --
-[link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week08/RitaGrammer/)
+· [RiTa Grammer - Taiwan bubble tea shop menu](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week08/RitaGrammer/)
+add google translate to your browser to read!
 
 
 ## Week09
 
-· LLM Testing - 
-[link](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week09/)
+· [When mountain have a LLM behind](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week09/)
 
+
+## Final
+
+· [RiveScript + LLM Testing ](https://talk-to-lans-mountain-a212fffbda9a.herokuapp.com/)
+——add streaming to both RiveScript and Replicate LLM (meta-70b-chat)!!
 
 _______________________________
 
