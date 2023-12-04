@@ -15,34 +15,18 @@ const replicate = new Replicate({
 
 app.post('/api/text', async (request, response) => {
   const version =
-    '8e6975e5ed6174911a6ff3d60540dfd4844201974602551e10e9e87ab143d81e';
+    '6b4da803a2382c08868c5af10a523892f38e2de1aafb2ee55b020d9efef2fdb8';
   const model = 'meta/llama-2-7b-chat';
   const input = {
     prompt: request.body.prompt,
     system_prompt: 'You are a smart mountain who usually repeat what user said because that is the echo in the mountains,you also love to tell them dad jokes',
   };
   console.log(input);
+
   const output = await replicate.run(`${model}:${version}`, { input });
   response.json({ output });
 });
 
-app.post('/api/image', async (request, response) => {
-  const model = 'stability-ai/sdxl';
-  const version =
-    '39ed52f2a78e934b3ba6e2a89f5b1c712de7dfea535525255b1aa35c5565e08b';
-  const input = {
-    prompt: request.body.prompt,
-  };
-  console.log(input);
-  const output = await replicate.run(`${model}:${version}`, { input });
-  const url = output[0];
-  console.log(url);
-  const imageResponse = await fetch(url);
-  const arrayBuffer = await imageResponse.arrayBuffer();
-  const buffer = Buffer.from(arrayBuffer);
-  const base64Image = buffer.toString('base64');
-  response.json({ image: base64Image });
-});
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {

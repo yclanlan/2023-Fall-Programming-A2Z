@@ -36,6 +36,7 @@ function setup() {
       },
       body: JSON.stringify({ prompt: prompt.value() }),
     });
+    
     const data = await response.json();
     let wordsByBot  = createElement('p', data.output.join(''));
     wordsByBot.parent('output');
