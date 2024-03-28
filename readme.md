@@ -29,7 +29,7 @@
 · [Testing Markov - mix two news](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week08/Markov/)
 
 
-· [RiTa Grammer - Taiwan bubble tea shop menu](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week08/RitaGrammer/)
+· [RiTa Grammer - Taiwan bubble tea shop menu](https://yclanlan.github.io/2023-Fall-Programming-A2Z/Week08/)
 add google translate to your browser to read!
 
 
