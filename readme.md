@@ -43,6 +43,14 @@ add google translate to your browser to read!
 · [RiveScript + LLM Testing ](https://talk-to-lans-mountain-a212fffbda9a.herokuapp.com/)
 ——add streaming to both RiveScript and Replicate LLM (meta-70b-chat)!!
 
+*note for myself:
+
+(heroku)
+$ cd to project
+
+$ git commit -am "message"
+
+$ git push heroku main
 _______________________________
 
 # Class Schedule
